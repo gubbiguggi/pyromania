@@ -1,0 +1,12 @@
+name: CustomWeapons
+version: 1.0
+main: com.example.weapons.WeaponsPlugin
+api-version: "1.21"
+commands:
+  weapon:
+    description: Give or list custom weapons
+    usage: /weapon <give <id> [player] | list>
+    permission: customweapons.admin
+permissions:
+  customweapons.admin:
+    default: op
